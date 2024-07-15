@@ -1,0 +1,21 @@
+---
+title: 'Contact | Code Stitch Web Designs'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'contact/'
+eleventyNavigation:
+    key: Contact Us
+    order: 600
+    hideOnDesktop: true
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/contact.css">
+{% endblock %}
+
+{% block body %}
+    {% include 'components/top-margin.html' %}
+    {% include 'components/contact.html' %}
+{% endblock %}

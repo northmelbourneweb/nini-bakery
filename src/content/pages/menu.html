@@ -1,0 +1,22 @@
+---
+title: 'About | Code Stitch Web Designs'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'menu/'
+eleventyNavigation:
+    key: Menu
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/menu.css">
+    <script defer src="/assets/js/menu.js"></script>
+{% endblock %}
+
+{% block body %}
+    {% include 'components/top-margin.html' %}`
+    {% include 'components/menu-multi.html' %}
+    {% include 'components/cta.html' %}
+{% endblock %}
