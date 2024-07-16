@@ -138,7 +138,7 @@
         margin: 0;
         overflow-x: hidden;
         padding: 0;
-        font-family: "Roboto", Arial, sans-serif;
+        font-family: "Roboto Slab", "Georgia", "Times New Roman", serif;
         font-size: 100%;
         color: var(--bodyTextColor);
     }
@@ -201,33 +201,33 @@
     }
     // Grab your fonts to locally host from https://google-webfonts-helper.herokuapp.com/fonts
 
-    /* roboto-regular - latin */
-    @font-face {
-        font-style: normal;
-        font-family: "Roboto";
-        font-weight: 400;
-        font-display: swap;
-        src: local(""), url("/assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */ url("/assets/fonts/roboto-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* roboto-700 - latin */
-    @font-face {
-        font-style: normal;
-        font-family: "Roboto";
-        font-weight: 700;
-        font-display: swap;
-        src: local(""), url("/assets/fonts/roboto-v29-latin-700.woff2") format("woff2"),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */ url("/assets/fonts/roboto-v29-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* roboto-900 - latin */
-    @font-face {
-        font-style: normal;
-        font-family: "Roboto";
-        font-weight: 900;
-        font-display: swap;
-        src: local(""), url("/assets/fonts/roboto-v29-latin-900.woff2") format("woff2"),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */ url("/assets/fonts/roboto-v29-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+    /* roboto-slab-regular - vietnamese */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/roboto-slab-v34-vietnamese-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/assets/fonts/roboto-slab-v34-vietnamese-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  /* roboto-slab-700 - vietnamese */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/roboto-slab-v34-vietnamese-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/assets/fonts/roboto-slab-v34-vietnamese-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  /* roboto-slab-900 - vietnamese */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/assets/fonts/roboto-slab-v34-vietnamese-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/assets/fonts/roboto-slab-v34-vietnamese-900.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
 }
 
 /* Reset Margins */
