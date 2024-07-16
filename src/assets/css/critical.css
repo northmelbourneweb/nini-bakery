@@ -16,11 +16,22 @@
     width: 100%;
     max-width: 80rem;
     margin: auto;
-  }
-  #hero-998 .cs-content {
+    position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 7vw, 4rem);
+  }
+  #hero-998 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    max-width: 39.375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
     align-items: center;
   }
   #hero-998 .cs-topper {
@@ -116,6 +127,19 @@
   }
   #hero-998 .cs-button-solid:hover:before {
     width: 100%;
+  }
+  #hero-998 .cs-picture {
+    width: 100%;
+    /* changes to 866px at desktop */
+    max-width: 34.0625rem;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+  #hero-998 .cs-picture img {
+    width: 100%;
+    height: auto;
   }
   #hero-998 .cs-background {
     width: 100%;
