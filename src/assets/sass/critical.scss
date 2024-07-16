@@ -69,7 +69,8 @@
 
         .cs-logo {
             width: 100%;
-            max-width: calc(614 / 16 * 1rem);
+            // max-width: calc(614 / 16 * 1rem);
+            max-width: calc(256 / 16 * 1rem);
             margin: 0 0 calc(24 / 16 * 1rem) 0;
             display: block;
 

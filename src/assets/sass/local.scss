@@ -872,7 +872,7 @@
         .cs-picture1 {
             width: calc(647 / 16 * 1em);
             height: calc(600 / 16 * 1em);
-            border-radius: 45%;
+            border-radius: calc(32 / 16 * 1em);
             top: 0;
             right: 0;
             z-index: -1;
