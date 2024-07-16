@@ -1,19 +1,19 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Bánh nhà Nini",
+    "email": "nguyenthuy07@gmail.com",
+    "phoneForTel": "0985-921-788",
+    "phoneFormatted": "0985 921 788",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "2/9A Đường 30",
+        "lineTwo": "TP. Thủ Đức",
+        "city": "TPHCM",
+        "state": "",
+        "zip": "",
+        "mapLink": "https://maps.app.goo.gl/jYfjvtSrNyJnC4yH8"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/NiniBakeryshop",
+        "zalo": "/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
     "domain": "https://www.example.com"

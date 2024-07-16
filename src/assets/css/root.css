@@ -599,10 +599,6 @@
   body.dark-mode #cs-navigation {
     background-color: var(--dark);
   }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* makes it white */
-    filter: grayscale(1) brightness(1000%);
-  }
   body.dark-mode #cs-navigation .cs-top-container {
     background-color: rgba(0, 0, 0, 0.2);
   }
@@ -1035,11 +1031,6 @@
   body.dark-mode #cs-navigation .cs-top-link {
     opacity: 0.8;
   }
-  body.dark-mode #cs-navigation .cs-logo,
-  body.dark-mode #cs-navigation .cs-link-icon {
-    /* turns it white */
-    filter: grayscale(1) brightness(1000%);
-  }
 }
 /*-- -------------------------- -->
 <---            CTA             -->
@@ -1227,7 +1218,7 @@
 @media only screen and (min-width: 0rem) {
   #footer-1390 {
     padding: var(--sectionPadding);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--dark);
     position: relative;
     z-index: 1;
   }
@@ -1286,7 +1277,7 @@
     display: block;
   }
   #footer-1390 .cs-logo-img {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
   }
@@ -1303,7 +1294,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   #footer-1390 .cs-social-li {
     list-style: none;
@@ -1311,22 +1302,17 @@
   #footer-1390 .cs-social-link {
     width: 2rem;
     height: 2rem;
-    background-color: #484848;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: background-color 0.3s;
-  }
-  #footer-1390 .cs-social-link:hover {
-    background-color: var(--primary);
   }
   #footer-1390 .cs-social-link:hover .cs-social-icon {
     filter: grayscale(1) brightness(1000%);
     opacity: 1;
   }
   #footer-1390 .cs-social-icon {
-    width: 0.75rem;
+    width: 2rem;
     height: auto;
     display: block;
     opacity: 0.6;

@@ -809,7 +809,6 @@
         }
 
         .cs-button-solid {
-            font-size: calc(16 / 16 * 1rem);
             /* 46px - 56px */
             line-height: clamp(2.875rem, 5.5vw, 3.5rem);
             text-decoration: none;
@@ -818,7 +817,6 @@
             margin: 0;
             color: #fff;
             padding: 0 calc(48 / 16 * 1rem);
-            border-radius: calc(30 / 16 * 1rem);
             background-color: var(--primary);
             display: inline-block;
             position: relative;
@@ -874,7 +872,7 @@
         .cs-picture1 {
             width: calc(647 / 16 * 1em);
             height: calc(600 / 16 * 1em);
-            border-radius: 100%;
+            border-radius: 45%;
             top: 0;
             right: 0;
             z-index: -1;
@@ -1090,7 +1088,7 @@
             margin-bottom: calc(24 / 16 * 1rem);
             width: calc(72 / 16 * 1rem);
             height: calc(72 / 16 * 1rem);
-            background-color: var(--primaryLight);
+            background-color: var(--bodyTextColorWhite);
             border-radius: calc(16 / 16 * 1rem) 0 calc(16 / 16 * 1rem) 0;
             display: flex;
             justify-content: center;
@@ -1571,6 +1569,7 @@
                 left: 0;
                 height: 100%;
                 width: 100%;
+                border-radius: calc(8 / 16 * 1rem);
                 /* makes it act like a background image */
                 object-fit: cover;
             }

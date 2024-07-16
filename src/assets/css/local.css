@@ -671,7 +671,6 @@
     color: var(--bodyTextColor);
   }
   #why-choose-1485 .cs-button-solid {
-    font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
     text-decoration: none;
@@ -680,7 +679,6 @@
     margin: 0;
     color: #fff;
     padding: 0 3rem;
-    border-radius: 1.875rem;
     background-color: var(--primary);
     display: inline-block;
     position: relative;
@@ -728,7 +726,7 @@
   #why-choose-1485 .cs-picture1 {
     width: 40.4375em;
     height: 37.5em;
-    border-radius: 100%;
+    border-radius: 45%;
     top: 0;
     right: 0;
     z-index: -1;
@@ -909,7 +907,7 @@
     margin-bottom: 1.5rem;
     width: 4.5rem;
     height: 4.5rem;
-    background-color: var(--primaryLight);
+    background-color: var(--bodyTextColorWhite);
     border-radius: 1rem 0 1rem 0;
     display: flex;
     justify-content: center;
@@ -1321,6 +1319,7 @@
     left: 0;
     height: 100%;
     width: 100%;
+    border-radius: 0.5rem;
     /* makes it act like a background image */
     object-fit: cover;
   }

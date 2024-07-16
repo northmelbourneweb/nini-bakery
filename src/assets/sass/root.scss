@@ -721,10 +721,11 @@
         #cs-navigation {
             background-color: var(--dark);
 
-            .cs-logo {
-                /* makes it white */
-                filter: grayscale(1) brightness(1000%);
-            }
+            // TODO
+            // .cs-logo {
+            //     /* makes it white */
+            //     filter: grayscale(1) brightness(1000%);
+            // }
 
             .cs-top-container {
                 background-color: rgba(0, 0, 0, .2);
@@ -1258,12 +1259,13 @@
             .cs-top-link {
                 opacity: .8;
             }
-
-            .cs-logo,
-            .cs-link-icon {
-                /* turns it white */
-                filter: grayscale(1) brightness(1000%);
-            }
+            
+            // TODO  
+            // .cs-logo,
+            // .cs-link-icon {
+            //     /* turns it white */
+            //     filter: grayscale(1) brightness(1000%);
+            // }
         }
     }
 }
@@ -1482,7 +1484,7 @@
 @media only screen and (min-width: 0rem) {
     #footer-1390 {
         padding: var(--sectionPadding);
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: var(--dark);
         position: relative;
         z-index: 1;
 
@@ -1548,7 +1550,8 @@
         }
 
         .cs-logo-img {
-            width: 100%;
+            // TODO
+            width: 50%;
             height: auto;
             display: block;
         }
@@ -1567,7 +1570,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: calc(8 / 16 * 1rem);
+            gap: calc(16 / 16 * 1rem);
         }
 
         .cs-social-li {
@@ -1577,14 +1580,14 @@
         .cs-social-link {
             width: calc(32 / 16 * 1rem);
             height: calc(32 / 16 * 1rem);
-            background-color: #484848;
-            border-radius: 50%;
+            // background-color: #484848;
+            // border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             transition: background-color 0.3s;
             &:hover {
-                background-color: var(--primary);
+                // background-color: var(--primary);
 
                 .cs-social-icon {
                     filter: grayscale(1) brightness(1000%);
@@ -1594,7 +1597,7 @@
         }
 
         .cs-social-icon {
-            width: calc(12 / 16 * 1rem);
+            width: calc(32 / 16 * 1rem);
             height: auto;
             display: block;
             opacity: 0.6;
