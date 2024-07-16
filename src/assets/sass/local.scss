@@ -192,7 +192,7 @@
             }
 
             .cs-job {
-                opacity: 0.8;
+                opacity: 0.9;
                 color: var(--bodyTextColorWhite);
             }
 
@@ -579,7 +579,7 @@
             align-items: center;
             border-radius: calc(4 / 16 * 1rem);
             margin: 0 auto calc(64 / 16 * 1rem);
-            background: #fff;
+            background: var(--backgroundLight);
             max-width: calc(542 / 16 * 1rem);
             width: 100%;
             /* Prevents padding from affecting height & width */
@@ -685,7 +685,7 @@
     #why-choose-1485 {
         padding: var(--sectionPadding);
         overflow: hidden;
-        background-color: #FFF8F5;
+        background-color: var(--backgroundLight);
         position: relative;
         z-index: 1;
         
@@ -741,7 +741,7 @@
             margin: 0;
             /* 24px - 32px */
             padding: 0 0 clamp(1.5rem, 3vw, 2rem);
-            border-bottom: 1px solid #E8E8E8;
+            border-bottom: 1px solid var(--darkSeparator);
             display: flex;
             align-items: flex-start;
             justify-content: flex-start;
@@ -874,6 +874,7 @@
         .cs-picture1 {
             width: calc(647 / 16 * 1em);
             height: calc(600 / 16 * 1em);
+            border-radius: 100%;
             top: 0;
             right: 0;
             z-index: -1;
@@ -883,8 +884,8 @@
             width: calc(320 / 16 * 1em);
             height: calc(320 / 16 * 1em);
             border-radius: 50%;
-            background-color: #fff;
-            border: calc(10 / 16 * 1em) solid #FFFFFF;
+            background-color: var(--primary);
+            border: calc(10 / 16 * 1em) solid var(--primary);
             bottom: 0;
             right: 0;
             z-index: 10;
@@ -957,7 +958,7 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #why-choose-1485 {
-            background-color: #061a28;
+            background-color: var(--dark);
 
             .cs-title, .cs-text, .cs-h3, .cs-li-text {
                 color: var(--bodyTextColorWhite);
@@ -983,7 +984,7 @@
 
             .cs-outer-mask {
                 /* same as the BG color of the section */
-                fill: #061a28;
+                fill: var(--backgroundLight);
             }
         }
     }
@@ -1089,7 +1090,7 @@
             margin-bottom: calc(24 / 16 * 1rem);
             width: calc(72 / 16 * 1rem);
             height: calc(72 / 16 * 1rem);
-            background-color: rgba(206, 65, 13, 0.05);
+            background-color: var(--primaryLight);
             border-radius: calc(16 / 16 * 1rem) 0 calc(16 / 16 * 1rem) 0;
             display: flex;
             justify-content: center;
@@ -1167,7 +1168,7 @@
 
             .cs-text,
             .cs-item-p {
-                opacity: 0.8;
+                opacity: 0.9;
             }
 
             .cs-picture {
@@ -1175,7 +1176,7 @@
             }
 
             .cs-arrow {
-                opacity: 0.5;
+                opacity: 0.6;
             }
         }
     }
@@ -1231,7 +1232,7 @@
             /* 20px - 40px left & right */
             padding: clamp(1.25rem, 3.15vw, 2.5rem)
                 clamp(1.25rem, 3.15vw, 2.5rem);
-            background-color: #f7f7f7;
+            background-color: var(--backgroundLightAccent);
             border-radius: calc(16 / 16 * 1rem);
             /* prevents padding from adding to height and width */
             box-sizing: border-box;
@@ -1246,7 +1247,6 @@
             width: calc(40 / 16 * 1rem);
             height: auto;
             margin-bottom: calc(32 / 16 * 1rem);
-            display: block;
         }
 
         .cs-quote-white {
@@ -1350,7 +1350,7 @@
             }
 
             .cs-item {
-                background-color: var(--accent);
+                background-color: var(--backgroundDarkAccent);
             }
 
             .cs-quote-white {
@@ -1381,7 +1381,7 @@
 @media only screen and (min-width: 0rem) {
     #menu-1005 {
         padding: var(--sectionPadding);
-        background-color: #1a1a1a;
+        background-color: var(--backgroundLight);
         position: relative;
         z-index: 1;
 
@@ -1391,7 +1391,7 @@
             height: 100%;
             width: 100%;
             opacity: 0.08;
-            background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/static-pattern.png");
+            // background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/static-pattern.png");
             background-size: auto;
             background-position: center;
             background-repeat: repeat;
@@ -1484,11 +1484,11 @@
 
         .cs-title,
         .cs-text {
-            color: var(--bodyTextColorWhite);
+            color: var(--bodyTextColor);
         }
 
         .cs-text {
-            opacity: 0.8;
+            opacity: 0.9;
         }
 
         .cs-button-solid {
@@ -1606,6 +1606,7 @@
         .cs-name {
             max-width: calc(220 / 16 * 1rem);
             flex: none;
+            color: var(--bodyTextColor);
         }
 
         .cs-price {
@@ -1631,7 +1632,7 @@
             line-height: 1.5em;
             text-align: left;
             margin: 0;
-            color: var(--bodyTextColorWhite);
+            color: var(--bodyTextColor);
             opacity: 0.8;
         }
     }
@@ -1657,7 +1658,14 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #menu-1005 {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: var(--dark);
+            .cs-title,
+            .cs-text,
+            .cs-name,
+            .cs-info,
+            .cs-item-p {
+            color: var(--bodyTextColorWhite);
+        }
         }
     }
 }

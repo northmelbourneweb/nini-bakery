@@ -7,7 +7,7 @@
     text-align: center;
     height: auto;
     padding: var(--sectionPadding);
-    background-color: #1a1a1a;
+    background-color: var(--backgroundLight);
   }
   #cs-menu-group-1040 .cs-container {
     width: 100%;
@@ -101,7 +101,7 @@
     font-weight: 400;
     margin: 0;
     padding: 0;
-    color: #fafbfc;
+    color: var(--bodyTextColor);
     background: transparent;
     border: none;
     display: flex;
@@ -130,7 +130,7 @@
     transition: width 0.3s, opacity 0.3s, margin-left 0.3s;
   }
   #cs-menu-group-1040 .cs-button.cs-active {
-    color: var(--bodyTextColorWhite);
+    color: var(--bodyTextColor);
     font-weight: 700;
   }
   #cs-menu-group-1040 .cs-button.cs-active:after {
@@ -227,7 +227,7 @@
     line-height: 1.2em;
     width: auto;
     max-width: 70%;
-    color: var(--bodyTextColorWhite);
+    color: var(--bodyTextColor);
     flex: none;
   }
   #cs-menu-group-1040 .cs-price {
@@ -252,7 +252,7 @@
     line-height: 1.5em;
     text-align: left;
     margin: 0;
-    color: var(--bodyTextColorWhite);
+    color: var(--bodyTextColor);
     opacity: 0.8;
   }
   #cs-menu-group-1040 .cs-button-solid {
@@ -263,7 +263,7 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
-    color: #fff;
+    color: var(--bodyTextColorWhite);
     min-width: 9.375rem;
     padding: 0 2rem;
     background-color: var(--primary);
@@ -314,7 +314,14 @@
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #cs-menu-group-1040 {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--dark);
+  }
+  body.dark-mode #cs-menu-group-1040 .cs-button,
+  body.dark-mode #cs-menu-group-1040 .cs-button::after,
+  body.dark-mode #cs-menu-group-1040 .cs-button::before,
+  body.dark-mode #cs-menu-group-1040 .cs-item-p,
+  body.dark-mode #cs-menu-group-1040 .cs-name {
+    color: var(--bodyTextColorWhite);
   }
 }
 
