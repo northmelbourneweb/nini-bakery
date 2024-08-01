@@ -32,13 +32,17 @@ eleventyNavigation:
                 });
         }
     </script>
+    <script defer src="/assets/js/menu.js"></script>
 {% endblock %}
 
 {% block body %}
-    {% include 'components/hero.html' %}
-    {% include 'components/why-us.html' %}
-    {% include 'components/steps.html' %}
-    {% include 'components/menu-single.html' %}
-    {% include 'components/reviews.html' %}
-    {% include 'components/cta.html' %}
+    {% include 'components/front/hero.html' %}
+    {% include 'components/front/intro.html' %}
+    {% include 'components/front/about.html' %}
+    {% include 'components/front/services.html' %}
+    {% include 'components/front/menu.html' %}
+    {% include 'components/front/form.html' %}
+    {% include 'components/front/team.html' %}
+    {% include 'components/front/reviews.html' %}
+
 {% endblock %}
