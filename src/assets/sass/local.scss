@@ -4,7 +4,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #why-choose-12 {
+    #cach-dat-hang {
         padding: var(--sectionPadding);
         background-color: var(--primary);
 
@@ -131,7 +131,7 @@
 
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #why-choose-12 {
+    #cach-dat-hang {
         .cs-card-group {
             flex-direction: row;
             justify-content: space-between;
@@ -145,7 +145,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #sbsr-1592 {
+    #ve-nini {
         padding: var(--sectionPadding);
         
         .cs-container {
@@ -262,7 +262,7 @@
 
 /* Tablet 768px */
 @media only screen and (min-width: 48rem) {
-    #sbsr-1592 {
+    #ve-nini {
         .cs-container {
             max-width: calc(1280 / 16 * 1rem);
             flex-direction: row;
@@ -577,7 +577,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #cs-menu-group-1040 {
+    #menu {
         text-align: center;
         height: auto;
         padding: var(--sectionPadding);
@@ -901,7 +901,7 @@
 
 /* Mobile - 359px */
 @media only screen and (max-width: 22.4375rem) {
-    #cs-menu-group-1040 {
+    #menu {
         .cs-picture {
             /* removed the picture on smaller devices so everything fits on the screen better */
             display: none;
@@ -911,7 +911,7 @@
 
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #cs-menu-group-1040 {
+    #menu {
         .cs-container {
             max-width: calc(1280 / 16 * 1rem);
         }

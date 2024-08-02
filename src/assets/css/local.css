@@ -3,11 +3,11 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #why-choose-12 {
+  #cach-dat-hang {
     padding: var(--sectionPadding);
     background-color: var(--primary);
   }
-  #why-choose-12 .cs-container {
+  #cach-dat-hang .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
@@ -17,7 +17,7 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-  #why-choose-12 .cs-content {
+  #cach-dat-hang .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
@@ -26,7 +26,7 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: center;
   }
-  #why-choose-12 .cs-card-group {
+  #cach-dat-hang .cs-card-group {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@
     flex-direction: column;
     gap: 3.75rem;
   }
-  #why-choose-12 .cs-item {
+  #cach-dat-hang .cs-item {
     text-align: center;
     list-style: none;
     width: 100%;
@@ -44,7 +44,7 @@
     margin: 0;
     padding: 0;
   }
-  #why-choose-12 .cs-picture {
+  #cach-dat-hang .cs-picture {
     /* 68px - 88px */
     width: clamp(4.25rem, 7vw, 5.5rem);
     height: clamp(4.25rem, 7vw, 5.5rem);
@@ -54,12 +54,12 @@
     justify-content: center;
     align-items: center;
   }
-  #why-choose-12 .cs-picture img {
+  #cach-dat-hang .cs-picture img {
     width: auto;
     height: 2.625rem;
     display: block;
   }
-  #why-choose-12 .cs-h3 {
+  #cach-dat-hang .cs-h3 {
     font-size: 1.25rem;
     line-height: 1.2em;
     text-align: inherit;
@@ -69,14 +69,14 @@
     margin-bottom: 0.5rem;
     color: var(--headerColor);
   }
-  #why-choose-12 .cs-item-text {
+  #cach-dat-hang .cs-item-text {
     font-size: 1rem;
     text-align: inherit;
     line-height: 1.5em;
     margin: 0;
     color: var(--bodyTextColor);
   }
-  #why-choose-12 .cs-button-solid {
+  #cach-dat-hang .cs-button-solid {
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -95,7 +95,7 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
   }
-  #why-choose-12 .cs-button-solid:before {
+  #cach-dat-hang .cs-button-solid:before {
     content: "";
     position: absolute;
     height: 100%;
@@ -108,13 +108,13 @@
     border-radius: 0.25rem;
     transition: width 0.3s;
   }
-  #why-choose-12 .cs-button-solid:hover:before {
+  #cach-dat-hang .cs-button-solid:hover:before {
     width: 100%;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #why-choose-12 .cs-card-group {
+  #cach-dat-hang .cs-card-group {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -124,10 +124,10 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #sbsr-1592 {
+  #ve-nini {
     padding: var(--sectionPadding);
   }
-  #sbsr-1592 .cs-container {
+  #ve-nini .cs-container {
     width: 100%;
     /* changes to 1280px at desktop */
     max-width: 34.375rem;
@@ -138,7 +138,7 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-  #sbsr-1592 .cs-content {
+  #ve-nini .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: left;
     width: 100%;
@@ -148,13 +148,13 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: flex-start;
   }
-  #sbsr-1592 .cs-text {
+  #ve-nini .cs-text {
     margin-bottom: 1rem;
   }
-  #sbsr-1592 .cs-text:last-of-type {
+  #ve-nini .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
-  #sbsr-1592 .cs-button-solid {
+  #ve-nini .cs-button-solid {
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -172,7 +172,7 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
   }
-  #sbsr-1592 .cs-button-solid:before {
+  #ve-nini .cs-button-solid:before {
     content: "";
     position: absolute;
     height: 100%;
@@ -184,10 +184,10 @@
     z-index: -1;
     transition: width 0.3s;
   }
-  #sbsr-1592 .cs-button-solid:hover:before {
+  #ve-nini .cs-button-solid:hover:before {
     width: 100%;
   }
-  #sbsr-1592 .cs-image-group {
+  #ve-nini .cs-image-group {
     /* scales the whole group based on the view width size and stop when that vales equals .745em, resets at desktop */
     font-size: min(1.959vw, 0.745em);
     width: 39.375em;
@@ -197,10 +197,10 @@
     position: relative;
     z-index: 1;
   }
-  #sbsr-1592 .cs-picture {
+  #ve-nini .cs-picture {
     position: absolute;
   }
-  #sbsr-1592 .cs-picture img {
+  #ve-nini .cs-picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -209,7 +209,7 @@
     top: 0;
     left: 0;
   }
-  #sbsr-1592 .cs-picture1 {
+  #ve-nini .cs-picture1 {
     /* the percentage heights allow them to be responsive to the height of the parent cs-image-group. On desktop, when the felxbox is set to aling-items: stretch, the cs-image group will stretch to fill the height of the parent container. So when you add more content to the cs-content group and make it taller, the cs-image group will get taller with it and every image will stretch with the parent, making this entire group responsive to the changing amounts of content next to it */
     width: 25.8125em;
     height: 79.617834%;
@@ -217,7 +217,7 @@
     right: 0;
     z-index: -1;
   }
-  #sbsr-1592 .cs-picture2 {
+  #ve-nini .cs-picture2 {
     width: 25.8125em;
     height: 44.585987%;
     bottom: 0;
@@ -227,19 +227,19 @@
 }
 /* Tablet 768px */
 @media only screen and (min-width: 48rem) {
-  #sbsr-1592 .cs-container {
+  #ve-nini .cs-container {
     max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
   }
-  #sbsr-1592 .cs-content {
+  #ve-nini .cs-content {
     /* this padding sets a minimum gap between the top and bottom of the content div and the top and bottom of the cs-image-group */
     padding: 3.75rem 0;
     /* while the cs-image-group will stretch to fill the height of the parent, this property will ensure that the cs-content group aligns itse;f in the center of the parent div instead of stretching */
     align-self: center;
   }
-  #sbsr-1592 .cs-image-group {
+  #ve-nini .cs-image-group {
     font-size: min(1.2vw, 1em);
     flex: none;
     /* sends it to the right in the 2nd position */
@@ -395,9 +395,21 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: -moz-linear-gradient(top, rgba(26, 26, 26, 0) 0%, rgba(0, 0, 0, 0.76) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(26, 26, 26, 0) 0%, rgba(0, 0, 0, 0.76) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(26, 26, 26, 0) 0%, rgba(0, 0, 0, 0.76) 100%);
+    background: -moz-linear-gradient(
+      top,
+      rgba(26, 26, 26, 0) 0%,
+      rgba(0, 0, 0, 0.76) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(26, 26, 26, 0) 0%,
+      rgba(0, 0, 0, 0.76) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 26, 26, 0) 0%,
+      rgba(0, 0, 0, 0.76) 100%
+    );
     opacity: 1;
     display: block;
     position: absolute;
@@ -409,9 +421,21 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: -moz-linear-gradient(top, rgba(26, 26, 26, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(26, 26, 26, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(26, 26, 26, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -moz-linear-gradient(
+      top,
+      rgba(26, 26, 26, 0.4) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(26, 26, 26, 0.4) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 26, 26, 0.4) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
     opacity: 0;
     display: block;
     position: absolute;
@@ -470,13 +494,13 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #cs-menu-group-1040 {
+  #menu {
     text-align: center;
     height: auto;
     padding: var(--sectionPadding);
     background-color: var(--backgroundDarkAccent);
   }
-  #cs-menu-group-1040 .cs-container {
+  #menu .cs-container {
     width: 100%;
     /* changes to 1280px at tablet */
     max-width: 34.375rem;
@@ -490,7 +514,7 @@
     gap: clamp(3rem, 6vw, 4rem);
     position: relative;
   }
-  #cs-menu-group-1040 .cs-content {
+  #menu .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
@@ -499,7 +523,7 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: center;
   }
-  #cs-menu-group-1040 .cs-icon-wrapper {
+  #menu .cs-icon-wrapper {
     width: 100%;
     margin: 0 0 0.75rem;
     display: flex;
@@ -508,7 +532,7 @@
     gap: 1rem;
     position: relative;
   }
-  #cs-menu-group-1040 .cs-icon-wrapper:before {
+  #menu .cs-icon-wrapper:before {
     /* left line */
     content: "";
     width: 50%;
@@ -519,7 +543,7 @@
     position: relative;
     display: block;
   }
-  #cs-menu-group-1040 .cs-icon-wrapper:after {
+  #menu .cs-icon-wrapper:after {
     /* right line */
     content: "";
     width: 50%;
@@ -530,7 +554,7 @@
     position: relative;
     display: block;
   }
-  #cs-menu-group-1040 .cs-icon {
+  #menu .cs-icon {
     width: 40%;
     /* 100px - 180px */
     max-width: clamp(6.25rem, 18vw, 11.25rem);
@@ -538,13 +562,13 @@
     /* prevents flexbox from squishing it */
     flex: none;
   }
-  #cs-menu-group-1040 .cs-title {
+  #menu .cs-title {
     margin: 0 0 2rem;
   }
-  #cs-menu-group-1040 .cs-hidden {
+  #menu .cs-hidden {
     display: none;
   }
-  #cs-menu-group-1040 .cs-button-group {
+  #menu .cs-button-group {
     width: auto;
     max-width: 62.5rem;
     margin: 0 1rem;
@@ -562,7 +586,7 @@
     column-gap: clamp(1.5rem, 2vw, 2.25rem);
     row-gap: 0.75rem;
   }
-  #cs-menu-group-1040 .cs-button {
+  #menu .cs-button {
     font-size: 1rem;
     line-height: 1.5em;
     font-weight: 400;
@@ -577,11 +601,11 @@
     position: relative;
     transition: color 0.3s, font-weight 0.3s, color 0.3s;
   }
-  #cs-menu-group-1040 .cs-button:hover {
+  #menu .cs-button:hover {
     color: var(--primary);
     cursor: pointer;
   }
-  #cs-menu-group-1040 .cs-button:after {
+  #menu .cs-button:after {
     /* active state icon */
     content: "";
     position: relative;
@@ -596,24 +620,24 @@
     opacity: 0;
     transition: width 0.3s, opacity 0.3s, margin-left 0.3s;
   }
-  #cs-menu-group-1040 .cs-button.cs-active {
+  #menu .cs-button.cs-active {
     color: var(--bodyTextColorWhite);
     font-weight: 700;
   }
-  #cs-menu-group-1040 .cs-button.cs-active:after {
+  #menu .cs-button.cs-active:after {
     width: clamp(1.5625rem, 3vw, 2.25rem);
     opacity: 1;
     /* 8px - 16px */
     margin-left: clamp(0.5rem, 0.5vw, 1rem);
   }
-  #cs-menu-group-1040 .cs-menu {
+  #menu .cs-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* 32px - 64px */
     gap: clamp(2rem, 6vw, 4rem);
   }
-  #cs-menu-group-1040 .cs-content {
+  #menu .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
@@ -624,7 +648,7 @@
     position: relative;
     z-index: 20;
   }
-  #cs-menu-group-1040 .cs-card-group {
+  #menu .cs-card-group {
     margin: 0;
     padding: 0;
     display: flex;
@@ -634,7 +658,7 @@
     /* 32px - 60px */
     row-gap: clamp(2rem, 6vw, 3.75rem);
   }
-  #cs-menu-group-1040 .cs-item {
+  #menu .cs-item {
     list-style: none;
     width: 100%;
     max-width: 36.25rem;
@@ -645,7 +669,7 @@
     /* 16px - 36px */
     gap: clamp(1rem, 3vw, 2.25rem);
   }
-  #cs-menu-group-1040 .cs-picture {
+  #menu .cs-picture {
     /* 76px - 160px */
     width: clamp(4.75rem, 14vw, 10rem);
     height: clamp(4.75rem, 14vw, 10rem);
@@ -654,7 +678,7 @@
     flex: none;
     position: relative;
   }
-  #cs-menu-group-1040 .cs-picture img {
+  #menu .cs-picture img {
     position: absolute;
     top: 0;
     left: 0;
@@ -663,7 +687,7 @@
     /* makes it act like a background image */
     object-fit: cover;
   }
-  #cs-menu-group-1040 .cs-h3 {
+  #menu .cs-h3 {
     /* 16px - 24px */
     font-size: clamp(1rem, 2vw, 1.5rem);
     line-height: 1.2em;
@@ -678,7 +702,7 @@
     position: relative;
     gap: 0.75rem;
   }
-  #cs-menu-group-1040 .cs-h3:after {
+  #menu .cs-h3:after {
     content: "";
     width: 50%;
     height: 1px;
@@ -688,7 +712,7 @@
     display: block;
     order: 1;
   }
-  #cs-menu-group-1040 .cs-name {
+  #menu .cs-name {
     /* 16px - 20px */
     font-size: clamp(1rem, 2vw, 1.5625rem);
     line-height: 1.2em;
@@ -697,7 +721,7 @@
     color: var(--bodyTextColorWhite);
     flex: none;
   }
-  #cs-menu-group-1040 .cs-price {
+  #menu .cs-price {
     /* 16px - 25px */
     font-size: clamp(1rem, 2vw, 1.5625rem);
     /* 28px - 46px */
@@ -713,7 +737,7 @@
     align-items: center;
     order: 3;
   }
-  #cs-menu-group-1040 .cs-item-p {
+  #menu .cs-item-p {
     /* 14px - 16px */
     font-size: clamp(0.875rem, 2vw, 1rem);
     line-height: 1.5em;
@@ -722,7 +746,7 @@
     color: var(--bodyTextColorWhite);
     opacity: 0.8;
   }
-  #cs-menu-group-1040 .cs-button-solid {
+  #menu .cs-button-solid {
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -740,7 +764,7 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
   }
-  #cs-menu-group-1040 .cs-button-solid:before {
+  #menu .cs-button-solid:before {
     content: "";
     position: absolute;
     height: 100%;
@@ -752,29 +776,29 @@
     z-index: -1;
     transition: width 0.3s;
   }
-  #cs-menu-group-1040 .cs-button-solid:hover:before {
+  #menu .cs-button-solid:hover:before {
     width: 100%;
   }
 }
 /* Mobile - 359px */
 @media only screen and (max-width: 22.4375rem) {
-  #cs-menu-group-1040 .cs-picture {
+  #menu .cs-picture {
     /* removed the picture on smaller devices so everything fits on the screen better */
     display: none;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #cs-menu-group-1040 .cs-container {
+  #menu .cs-container {
     max-width: 80rem;
   }
-  #cs-menu-group-1040 .cs-card-group {
+  #menu .cs-card-group {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 1.25rem;
   }
-  #cs-menu-group-1040 .cs-item {
+  #menu .cs-item {
     width: 48.5%;
   }
 }
@@ -1091,7 +1115,8 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #contact-1271 .cs-label:nth-of-type(1), #contact-1271 .cs-label:nth-of-type(2) {
+  #contact-1271 .cs-label:nth-of-type(1),
+  #contact-1271 .cs-label:nth-of-type(2) {
     grid-column: span 6;
   }
 }

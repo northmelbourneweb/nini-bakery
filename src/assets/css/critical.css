@@ -194,6 +194,24 @@
     /* Makes img tag act as a background image */
     object-fit: cover;
   }
+  #hero-929 .hero-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  #hero-929 .hero-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 62px;
+  }
+  #hero-929 .hero-divider .shape-fill {
+    fill: #FD9D3E;
+  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
